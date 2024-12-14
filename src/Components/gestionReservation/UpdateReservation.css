@@ -1,0 +1,93 @@
+/* Style général pour la page */
+.update-reservation {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Titre de la page */
+  .update-reservation h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333;
+  }
+  
+  /* Style des champs de formulaire */
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #555;
+  }
+  
+  .form-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    box-sizing: border-box;
+  }
+  
+  .form-group input:focus {
+    border-color: #007bff;
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+  }
+  
+  /* Bouton de soumission */
+  .btn {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Messages de chargement et d'erreur */
+  div {
+    text-align: center;
+  }
+  
+  div.loading {
+    font-size: 18px;
+    color: #666;
+  }
+  
+  div.error {
+    color: red;
+    font-size: 16px;
+    margin-top: 20px;
+  }
+  
+  /* Ajustement pour les petits écrans */
+  @media (max-width: 480px) {
+    .update-reservation {
+      padding: 15px;
+      font-size: 14px;
+    }
+  
+    .btn {
+      font-size: 16px;
+    }
+  }
+  

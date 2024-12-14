@@ -1,0 +1,109 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css');
+.grand-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-right: 80%;
+  gap: 20px 10px;
+  
+}
+.profile-container {
+  width: 200px; /* Ajustez la largeur souhaitée */
+  height: 200px; /* Ajustez la hauteur souhaitée */
+  display: inline-block; 
+  padding: 40px;
+  background-color: transparent;
+ /* Empêche l'icône de dépasser le conteneur */
+}
+.profile-container i {
+margin-right: 100px;
+}
+
+.profile-icon {
+  margin-right: 300pxpx;
+  width: 200px; /* Remplit toute la largeur du conteneur */
+  height: 200px; /* Remplit toute la hauteur du conteneur */
+  font-size: 90px; /* Ajustez la taille de l'icône en fonction de vos besoins */
+  line-height: 50px; /* Permet d'aligner verticalement le texte ou l'icône */
+  text-align: center; 
+  margin-left: 0px;/* Centre l'icône */
+}
+
+.container1{
+  height: 100%;
+  background-color: rgb(144, 144, 247);
+  margin-left: 0px;
+}
+.container1 button{
+  height: 90px;
+  width: 100%;
+  margin-right: 100px;
+  background-color: transparent;
+}
+
+.container {
+
+    padding: 20px;
+    margin-left: 300px;
+    background-color: transparent;
+  }
+  .container input{
+    margin-left: 100px;
+    background-color: rgb(157, 157, 214);
+  }
+  
+  .loading, .error {
+    text-align: center;
+    font-size: 18px;
+    margin-top: 20px;
+  }
+  
+  .reservation-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    margin-left: 70px;
+  }
+  
+  .reservation-table th, .reservation-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .reservation-table th {
+    background-color: #f2f2f2;
+  }
+  .navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #2c3e50;
+    color: white;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    z-index: 1000; /* Pour toujours être au-dessus */
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+  }
+  
+  .navbar-icons {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+  }
+  
+  .icon-link {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .icon-link:hover {
+    color: #1abc9c;
+  }
+  
+   

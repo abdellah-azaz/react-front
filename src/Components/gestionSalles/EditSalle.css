@@ -1,0 +1,44 @@
+
+ .edit-container{
+   width: 100%;
+    margin-top: 100px;
+    margin-left: 100%;
+    background-color: #faf9f8;
+
+ }
+ .edit-container form{
+    margin-top: 50px;
+ }
+ .edit-container form input{
+    margin-top: 30px;
+    width: 400px;
+    height: 40px;
+    border-radius: 7px;
+    color: white;
+    background-color: rgb(202, 176, 176);
+ }
+ .edit-container form input:hover{
+    margin-top: 30px;
+    border: 2px solid #FFBF00;
+    width: 400px;
+    height: 40px;
+    border-radius: 7px;
+    color: white;
+    background-color: black;
+ }
+
+
+ .edit-container form button{
+    margin-top: 20px;
+   
+    border-radius: 7px;
+  cursor: pointer;
+    background-color: rgb(104, 71, 71);
+ }
+ .edit-container form button:hover{
+    margin-top: 20px;
+   width: 80px;
+    border-radius: 7px;
+  cursor: pointer;
+    background-color: rgb(163, 48, 48);
+ }

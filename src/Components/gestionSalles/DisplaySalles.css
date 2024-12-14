@@ -1,0 +1,166 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css');
+body{
+    background-image: url('../Assets/mylogo.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+ }
+ .grand-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 100%;
+
+ }
+
+
+ .container{
+    width: 70%;
+    margin-left: 20%;
+ }
+ .container table{
+  margin-left: 100px;
+ }
+ .container1{
+  margin-top: 60px;
+  height: 100%;
+  background-color: rgb(144, 144, 247);
+  margin-left: 0px;
+ }
+ .profile-container{
+  height: 100%;
+ }
+ .container1 button:hover{
+  background-color: blue;
+
+
+ }
+ .notifications{
+  margin-right: 60px;
+  width: 200px; /* Largeur de la liste */
+  height: 200px; /* Hauteur fixe de la liste */
+   /* Bordure pour une meilleure visibilité */
+  border-radius: 5px;
+  padding: 10px;
+  overflow-y: scroll; /* Active la barre de défilement verticale */
+  background-color:bleu;
+  scrollbar-width: none;
+}
+.delete-notification-button{
+  background-color: #e74c3c;
+  height: 10px;
+  width: 15px;
+  margin-top: 3px;
+}
+
+.notifications li {
+ 
+  list-style: none; /* Enlève les puces */
+  margin-top: 10px;
+ width: 130px;
+  background: #e6e6e6; /* Fond pour chaque élément */
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.notifications li button{
+ 
+/* Enlève les puces */
+  margin-top: 4px;
+ width: 15px;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ height: 10px;
+  background: #cc1313; /* Fond pour chaque élément */
+  border-radius: 1px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.notifications li button:hover{
+ 
+  /* Enlève les puces */
+    margin-top: 4px;
+   width: 15px;
+   height: 10px;
+    background: #cc1313; /* Fond pour chaque élément */
+    border-radius: 1px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+
+
+.notifications ul{
+  margin-right: 60px;
+}
+
+  
+  /* Styles pour la barre de recherche */
+  .search-bar {
+    margin-bottom: 20px;
+  }
+  
+  .search-bar input {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  /* Styles pour la table */
+  .salle-table {
+    width: 100%;
+    border-collapse: collapse; /* Supprime les doubles bordures */
+    margin: 20px 0;
+  }
+  
+  .salle-table th,
+  .salle-table td {
+    padding: 12px 15px;
+    text-align: center;
+    border: 1px solid #ddd; /* Bordures des cellules */
+  }
+  
+  .salle-table th {
+    background-color: #f4f4f4; /* Fond des en-têtes */
+    font-weight: bold;
+  }
+  
+  .salle-table tr:nth-child(even) {
+    background-color: #f9f9f9; /* Lignes alternées */
+  }
+  
+  .salle-table tr:hover {
+    background-color: #f1f1f1; /* Survol des lignes */
+  }
+  .container button{
+    width: 80px;
+    height: 20px;
+   margin-left: 20px;
+  }
+  
+  /* Boutons dans la table */
+  .delete-button,
+  .edit-button {
+    padding: 5px 10px;
+    font-size: 14px;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  .delete-button {
+    background-color: #e74c3c; /* Rouge pour supprimer */
+  }
+  
+  .delete-button:hover {
+    background-color: #c0392b;
+  }
+  
+  .edit-button {
+    background-color: #3498db; /* Bleu pour modifier */
+  }
+  
+  .edit-button:hover {
+    background-color: #2980b9;
+  }

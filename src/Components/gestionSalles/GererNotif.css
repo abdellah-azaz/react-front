@@ -1,0 +1,32 @@
+body{
+    display: flex;
+}
+.add-salle-container {
+   
+
+    margin-right: 10%;
+    background-color: transparent;
+    height: 100%;
+    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
+}
+.add-salle-container form{
+    height: 100px;
+    margin-right: 200px;
+}
+
+.add-salle-container button{
+    width: 300px;
+    margin-left: 80%;
+    height: 70px;
+    background-color: blue;
+ 
+}
+.form-group input{
+    margin-top: 5px;
+    width: 500px;
+}
+.form-group button{
+    margin-top: 2px;
+}

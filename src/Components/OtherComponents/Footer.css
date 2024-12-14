@@ -1,0 +1,34 @@
+.footer {
+    background-color: #1a1a1a; /* Couleur de fond */
+    color: white; /* Couleur du texte */
+    text-align: center;
+    padding: 20px 0;
+    height: 20px;
+    width: 100%; /* Assure une largeur complète */
+    position: fixed; /* Garde le footer en bas */
+    bottom: 0; /* Positionne au bas de la page */
+    left: 0; /* Positionne au bord gauche */
+    z-index: 1000; /* Assure qu'il soit au-dessus des autres éléments si nécessaire */
+  }
+  
+  .footer p {
+    margin: 5px 0;
+    font-size: 14px;
+  }
+  
+  .social-links {
+    margin-top: 10px;
+  }
+  
+  .social-icon {
+    margin: 0 10px;
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  .social-icon:hover {
+    color: #0077b5; /* Couleur au survol, exemple pour LinkedIn */
+  }
+  

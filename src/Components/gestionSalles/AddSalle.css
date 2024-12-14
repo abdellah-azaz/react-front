@@ -1,0 +1,30 @@
+
+
+body{
+   background-image: url('../Assets/mylogo.png');
+   background-repeat: no-repeat;
+   background-size: contain;
+   background-position: center;
+}
+
+.add-salle-container {
+background-color: aqua;
+width: 50%;
+margin-left: 45%;
+margin-top: 19%;
+}
+
+.add-salle-container form button{
+ 
+   font-style: initial;
+   color: rgb(8, 8, 8);
+   width: 100px;
+   cursor: pointer;
+   margin-top: 30px;
+   height: 30px;
+   background-color: brown;
+    }
+   
+  
+        
+        

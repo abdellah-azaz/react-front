@@ -1,0 +1,58 @@
+/* GererAttent.css */
+body{
+    overflow-y: auto;
+}
+.reservations-container {
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .scrollable-content {
+    max-height: 500px; /* Définir la hauteur maximale pour la zone de défilement */
+    overflow-y: auto; /* Activer la barre de défilement verticale */
+    border: 1px solid #ccc; /* Optionnel : une bordure pour mieux délimiter */
+    padding: 10px;
+    background-color: #f9f9f9;
+  }
+  
+  .salle-section {
+    margin-bottom: 20px;
+  }
+  
+  .reservation-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .reservation-table th,
+  .reservation-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .reservation-table th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+  }
+  
+  .approve-button,
+  .delete-button {
+    margin-right: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  
+  .approve-button {
+    background-color: #4caf50;
+    color: white;
+    border: none;
+  }
+  
+  .delete-button {
+    background-color: #f44336;
+    color: white;
+    border: none;
+  }
+  
